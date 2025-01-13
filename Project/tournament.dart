@@ -14,7 +14,7 @@ void main() {
   print("Game: $game, Time: $time");
 
   // Ask if the user wants to proceed
-  if (!proceed()) {
+  if (!proceed()) {                    // This line is as same as (proceed() == false)
     print("Thank you for your time!");
     return;
   }
